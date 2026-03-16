@@ -1,0 +1,18 @@
+# SolidWorks / CAD temp & lock files
+~$*.*
+*.tmp
+*.bak
+*.sldprt.bak
+*.sldasm.bak
+*.err
+*.log
+
+# KiCad / EDA future artifacts
+*.kicad_prl
+*.kicad_pcb-bak
+*.sch-bak
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
