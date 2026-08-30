@@ -1,32 +1,32 @@
-# Ghost Electric Motorcycle - High-Voltage Battery Subsystem
+# Ghost Electric Motorcycle - High-Voltage Battery Pack (Gen 1)
 
-A modular, high-voltage (~120V) lithium-ion battery pack architecture and 3D structural packaging assembly designed for the Ghost Electric Motorcycle powertrain. The design prioritizes volumetric packaging density, mechanical cell constraint against vehicle vibration, serviceability, and high-voltage isolation.
+A 3D CAD structural packaging and cell module integration assembly designed in SolidWorks for the Ghost Electric Motorcycle high-voltage (~120V) powertrain. This repository archives the complete Gen 1 battery pack mechanical design, developed to validate volumetric packaging density, cell retention under vibration, and multi-tier structural rigidity.
 
 ---
 
 ## CAD Assembly Renders
 
 ![Full Battery Pack Isometric View](gen1-concept/renders/Full-Pack-IsometricView.png)
-*Isometric view detailing the multi-tier modular module stack, cylindrical cell retaining plates, vertical structural standoffs, and mounting bracket interconnects.*
+*Isometric view detailing the multi-tier modular module stack, cylindrical cell retaining plates, vertical structural standoffs, and mechanical bracket interconnects.*
 
 ![Full Battery Pack Top View](gen1-concept/renders/Full-Pack-TopView.png)
-*Top-down packaging view showing the 3x6 modular array configuration, cell alignment geometry, and inter-module spacing.*
+*Top-down packaging view showing the 3x6 modular array configuration and cell alignment geometry.*
 
 ---
 
-## Mechanical Architecture & Electrical Integration
+## Mechanical Architecture & Packaging Specifications
 
-- **Modular Module Packaging:** Multi-module packaging architecture designed to maximize cell capacity within the restrictive spatial envelope of an electric motorcycle frame.
-- **Cell Retention & Vibration Damping:** Custom top and bottom retaining plates engineered to secure cylindrical cells, eliminate relative motion during dynamic road loads, and maintain uniform air gap tolerances.
-- **Structural Stacking & Fastening:** Integrated vertical standoffs, lateral tie-plates, and perimeter fastener points providing torsional rigidity across stacked tiers while facilitating modular replacement.
-- **High-Voltage Routing & Safety Footprint:** Physical footprint designed for low-inductance busbar interconnects, high-voltage fuse isolation, inter-module series linking, and harness routing for the Battery Management System (BMS).
+- **Modular Module Architecture:** Multi-module battery pack layout configured to maximize cylindrical cell capacity within the restrictive spatial envelope of the motorcycle frame.
+- **Cell Retention & Mechanical Stability:** Custom top/bottom retaining plates and cell holder arrays engineered to secure cells, maintain consistent air gaps for thermal dissipation, and prevent displacement during vehicle vibration.
+- **Structural Stacking & Fastening:** Integrated vertical standoffs, tie plates, and perimeter hardware providing torsional rigidity across stacked tiers.
+- **High-Voltage Footprint Planning:** Physical geometry organized around multi-tier module series/parallel links, defining the clearances required for busbar routing, high-voltage isolation, and Battery Management System (BMS) wiring harnesses.
 
 ---
 
-## Development Roadmap
+## Project Context & Iteration
 
-- **Gen 1 (Concept & Packaging Validation):** Full-scale 3D CAD mechanical assembly, spatial frame fitting, structural standoff validation, and vibration-resistant cell retention design.
-- **Gen 2 (Production Subsystems):** Final cell interconnect busbar sizing, thermal dissipation modeling, Orion BMS tap harness routing, and CAN bus telemetry integration.
+- **Gen 1 (Archived in this Repo):** The complete Year 1 high-voltage battery pack CAD assembly and mechanical packaging design, serving as the geometric baseline for packaging and cell retention validation.
+- **Gen 2 (Active Development):** A completely redesigned, next-generation high-voltage battery architecture currently in development for updated powertrain and vehicle chassis requirements.
 
 ---
 
@@ -34,18 +34,17 @@ A modular, high-voltage (~120V) lithium-ion battery pack architecture and 3D str
 
     ├── gen1-concept/
     │   ├── cad/
-    │   │   └── 24-BA-02 FULL BATTERY ASSY 3.23.2026.STEP   <-- 3D CAD assembly neutral STEP model
+    │   │   └── 24-BA-02 FULL BATTERY ASSY 3.23.2026.STEP   <-- 3D CAD neutral STEP assembly
     │   └── renders/
-    │       ├── Full-Pack-IsometricView.png                 <-- Isometric assembly render
+    │       ├── Full-Pack-IsometricView.png                 <-- Isometric CAD render
     │       └── Full-Pack-TopView.png                       <-- Top-down packaging render
-    ├── gen2-production/                                    <-- Active module design, schematics & sizing
-    ├── .gitignore                                          <-- CAD temporary file & lock exclusions
-    └── README.md                                           <-- Technical specifications
+    ├── .gitignore                                          <-- SolidWorks/CAD temporary file rules
+    └── README.md                                           <-- Subsystem documentation & specifications
 
 ---
 
-## Tools & Technical Specifications
+## Tools & Technical Stack
 
 - **CAD Suite:** SolidWorks
-- **Target Powertrain:** 120V High-Voltage Electric Motorcycle
-- **Key Focus Areas:** EV Battery Packaging, Cell Retention & Structural Integration, High-Voltage Safety, Modular Power Systems
+- **Target Application:** High-Voltage (~120V) Electric Motorcycle Powertrain
+- **Engineering Domains:** EV Battery Packaging, Mechanical Cell Retention, Modular CAD Modeling, High-Voltage Systems Integration
